@@ -167,7 +167,7 @@ public class CheckInputOutput {
 	 * @return
 	 */
 	public static boolean checkAuthorship(String file) {
-		return checkAuthorship(file, null);
+		return checkAuthorship("src/ninja/zilles/" + file, null);
 	}
 
 	/**
